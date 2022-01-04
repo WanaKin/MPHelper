@@ -7,6 +7,7 @@ class MPHelper
      * The scale to keep for calculations. Defaults to 0, so be sure to set using the setScale method
      *
      * @var int
+
      */
     protected $scale;
 
@@ -85,7 +86,7 @@ class MPHelper
      * @param  string ...$nums The numbers to substract
      * @return string The difference of the number
      */
-    public function substract(...$nums)
+    public function subtract(...$nums)
     {
         // Start at the first number
         $difference = $nums[0];

@@ -3,11 +3,6 @@ namespace WanaKin\MP\Tests;
 
 class MPHelperCompareTest extends TestCase
 {
-    /**
-     * Test comparisons between two numbers
-     *
-     * @return void
-     */
     public function test_comparing_two_numbers()
     {
         // Set the scale
